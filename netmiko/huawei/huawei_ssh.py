@@ -128,3 +128,7 @@ class HuaweiVrpv8SSH(HuaweiSSH):
     def save_config(self, cmd="", confirm=True, confirm_response=""):
         """Not Implemented"""
         raise NotImplementedError
+
+
+class HuaweiTelnet(HuaweiSSH):
+    pass
